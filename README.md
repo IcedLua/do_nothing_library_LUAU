@@ -6,10 +6,10 @@ It literally does <s>nothing</s> something. Use it anyway. It's super cool.
 
 ## 🚀 Features
 
-- 🧠 <s>No</s> EVERY dependencie<s>s</s>  
-- 🫥 <s>No</s> TOO MANY functions  
-- 🐌 <s>No</s> An **EXTRME** performance cost  
-- 🧼 <s>No bugs</s> Spontaneously breaking behavior  
+- 🧠 No< dependencie<s>s</s>  
+- 🫥 No functions  
+- 🐌 No performance cost  
+- 🧼 No bugs
 - 🤝 No purpose  
 - ✨ Professionally vibecoded
 
