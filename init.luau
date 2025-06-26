@@ -11,15 +11,16 @@ local Nothing = {}
 	Performs an advanced no-op.
 	Returns absolutely nothing.
 ]]
-function Nothing.doAbsolutelyNothing()
-	-- intentionally does nothing
+function Nothing.remainIdle()
+
 end
 
 --[[
 	Does nothing asynchronously.
 	Spins a coroutine that achieves zero.
+	Inconsistant with other functions for no reason.
 ]]
-function Nothing.doNothingAsync()
+function Nothing.doNowtAsync()
 	task.spawn(function()
 		-- simulated async non-action
 	end)
@@ -28,36 +29,38 @@ end
 --[[
 	Returns a metatable that reacts to everything by ignoring it.
 ]]
-function Nothing.getPassiveMetatable()
+function Nothing.obtainPassiveMetatable()
 	return setmetatable({}, {
-		__index = function() return Nothing end,
+		__index = function() return nil end,
 		__newindex = function() end,
 		__call = function() return nil end,
-		__metatable = "💤"
+		__metatable = "💤",
+		__len = function() return nil end
 	})
 end
 
 --[[
 	Causes an extreme performance cost by doing... something expensive for no reason.
 ]]
-function Nothing.destroyPerformance()
+function Nothing.cripplePerformance()
 	for _ = 1, 1e6 do
-		math.sqrt(math.random()) -- meaningless CPU burn
+		Nothing.doNowtAsync() --Replaced with nothing to do nothing
 	end
 end
 
+
 --[[
-	Returns a random feature name... that doesn't exist.
+	DEPRECATED, DO NOT USE IN NEW WORK!!
 ]]
-function Nothing.getImaginaryFeature()
-	local features = {
-		"Quantum Desync Engine",
-		"Memory Leak Preserver",
-		"UndefinedBehavior.v4",
-		"Reverse Garbage Collector",
-		"Recursive NOP Interpreter"
-	}
-	return features[math.random(1, #features)]
+
+-- DEPRECATED: TOO HELPFUL
+function Nothing.void_universalFabricCommunicationPingPongPipeAbstractionLayer(x)
+	return x
+end
+
+-- DEPRECATED: TOO MUCH STUFF (in the name)!!!
+function Nothing.universalFabric_robloxOutputAndLoggingCommunicationTransferAbstractionLayer(x)
+	Nothing.void_universalFabricCommunicationPingPongPipeAbstractionLayer(x)
 end
 
 return Nothing
