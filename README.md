@@ -6,7 +6,7 @@ It literally does <s>nothing</s> something. Use it anyway. It's super cool.
 
 ## 🚀 Features
 
-- 🧠 No< dependencie<s>s</s>  
+- 🧠 No dependencie<s>s</s>  
 - 🫥 No functions  
 - 🐌 No performance cost  
 - 🧼 No bugs
@@ -23,7 +23,7 @@ It literally won’t matter.
 This project is licensed under the **JSON License**, so like... don't be evil.
 
 ```text
-Copyright (c) 2025 SpaceySlime
+Copyright (c) 2025 IcedLua
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
